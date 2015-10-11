@@ -1,0 +1,16 @@
+<head>
+  <title>playingWithBlaze</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> Template.dynamic template="hello" data=items }}
+</body>
+
+<template name="hello">
+  <h2>hello Template</h2>
+  <p>
+    {{helper.test}}
+  </p>
+</template>
